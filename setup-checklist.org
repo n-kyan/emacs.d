@@ -17,10 +17,10 @@
 - [X] Install GNU =ls= (=brew install coreutils=) so Dired works fully on macOS
 - [X] DECIDE: one =init.el= vs. literate =config.org= vs. split files — init.el + lisp/ (AI-friendly)
 
-* TODO 2. Finding things (completion) [/]
-- [ ] DECIDE: minibuffer — keep fido vs. Vertico + Orderless + Marginalia + Consult + Embark
-- [ ] DECIDE: in-buffer — Corfu vs. Company vs. built-in completion-preview (or a mix)
-- [ ] DECIDE: popups appear automatically vs. only on TAB
+* DONE 2. Finding things (completion) [3/3]
+- [X] DECIDE: minibuffer — Vertico stack
+- [X] DECIDE: in-buffer — completion-preview ghost text only (no popups)
+- [X] DECIDE: popups — n/a, no popups
 
 * TODO 3. Terminal [/]
 - [ ] Try the known eat speed fixes, measure the lag

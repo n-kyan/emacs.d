@@ -12,6 +12,9 @@ Owner: macOS (Apple Silicon), Emacs 31.1 (NS build). Keyboard layout: Graphite (
 - `setup-checklist.org` — the setup plan we're working through.
 
 ## Rules
+- NEVER run git commands that change anything (commit, push, pull, etc.) and never touch
+  GitHub. Only edit files locally; the owner commits and pushes himself via Magit.
+  If something needs doing on GitHub, tell him.
 - Every package goes through `use-package` with `:ensure t` (or `:vc`), so a fresh
   clone installs everything on first launch.
 - Comment every setting with a plain-English line saying what it does and why.

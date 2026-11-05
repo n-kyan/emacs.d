@@ -66,8 +66,63 @@
 (global-auto-revert-mode 1)
 
 ;;; Completion
-;; Live completion in the minibuffer (M-x, C-x b, C-x C-f)
-(fido-vertical-mode 1)
+;; Minibuffer (M-x, C-x b, C-x C-f, ...): the "Vertico stack".
+;; Five small packages that each do one job and plug into Emacs's standard
+;; completion, so every command that asks you to pick something benefits.
+
+;; Remember minibuffer history across restarts, so recent picks sort first
+(savehist-mode 1)
+
+;; Vertico: shows candidates as a vertical list
+(use-package vertico
+  :ensure t
+  :config
+  (vertico-mode 1))
+
+;; Orderless: type space-separated pieces in any order ("buf py")
+(use-package orderless
+  :ensure t
+  :config
+  (setq completion-styles '(orderless basic)
+        ;; File paths: also allow "~/.e/i" to expand to ~/.emacs.d/init.el
+        completion-category-overrides '((file (styles basic partial-completion)))))
+
+;; Marginalia: notes beside each candidate (docstrings, file sizes, key bindings)
+(use-package marginalia
+  :ensure t
+  :config
+  (marginalia-mode 1))
+
+;; Consult: smarter versions of common commands, with live preview
+(use-package consult
+  :ensure t
+  :bind (("C-x b"   . consult-buffer)         ; buffers + recent files + bookmarks
+         ("C-x p b" . consult-project-buffer) ; same, limited to this project
+         ("M-y"     . consult-yank-pop)       ; browse everything you've copied
+         ("M-g g"   . consult-goto-line)      ; go to line, with preview
+         ("M-g i"   . consult-imenu)          ; jump to a function/heading in this file
+         ("M-s l"   . consult-line)           ; search lines in this buffer
+         ("M-s r"   . consult-ripgrep)        ; search text across the project
+         ("M-s f"   . consult-fd)))           ; find files across the project
+
+;; Recent files show up in consult-buffer
+(recentf-mode 1)
+
+;; Embark: C-. on any candidate (or thing at point) shows actions for it,
+;; e.g. on a file: delete, rename, copy path; on a buffer: kill it
+(use-package embark
+  :ensure t
+  :bind (("C-." . embark-act)))
+
+;; Glue: lets Embark turn Consult search results into an editable buffer
+(use-package embark-consult
+  :ensure t
+  :hook (embark-collect-mode . consult-preview-at-point-mode))
+
+;; In-buffer: show the single best guess as gray "ghost text" while typing code.
+;; TAB accepts it; keep typing to narrow it. No popup list.
+(use-package completion-preview
+  :hook (prog-mode . completion-preview-mode))
 
 ;;; Editing
 ;; Can repeat commands by just pressing the last character over and over
