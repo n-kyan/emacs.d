@@ -4,18 +4,18 @@
 # C-c C-t on a heading cycles TODO -> DONE.
 # DECIDE = a real choice with trade-offs; we compare before you pick.
 
-* TODO 0. Check the base [/]
-- [ ] Find Emacs version + build (31.1 is current; emacs-plus is the most recommended macOS build)
-- [ ] DECIDE: upgrade build/version or keep it
+* DONE 0. Check the base [2/2]
+- [X] Find Emacs version + build — 31.1, NS build
+- [X] DECIDE: upgrade build/version or keep it — keep
 
-* TODO 1. Foundation cleanup (no decisions, just fixes) [/]
-- [ ] Move Emacs's auto-written settings to =custom.el=
-- [ ] Load the theme once (fix double load)
-- [ ] Send =~= backup and auto-save files to one folder
-- [ ] Move your own elisp (help-agent, marimo-view, python-strings) into =lisp/=
-- [ ] Organize =init.el= into foldable sections
-- [ ] Install GNU =ls= (=brew install coreutils=) so Dired works fully on macOS
-- [ ] DECIDE: one =init.el= vs. literate =config.org= vs. split files
+* DONE 1. Foundation cleanup (no decisions, just fixes) [7/7]
+- [X] Move Emacs's auto-written settings to =custom.el=
+- [X] Load the theme once (fix double load)
+- [X] Send =~= backup and auto-save files to one folder
+- [X] Move your own elisp (help-agent, marimo-view, python-strings) into =lisp/=
+- [X] Organize =init.el= into foldable sections
+- [X] Install GNU =ls= (=brew install coreutils=) so Dired works fully on macOS
+- [X] DECIDE: one =init.el= vs. literate =config.org= vs. split files — init.el + lisp/ (AI-friendly)
 
 * TODO 2. Finding things (completion) [/]
 - [ ] DECIDE: minibuffer — keep fido vs. Vertico + Orderless + Marginalia + Consult + Embark
