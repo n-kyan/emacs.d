@@ -89,7 +89,7 @@
               (lambda (_server)
                 `(:python (:pythonPath ,(expand-file-name ".venv/bin/python"))
                           :basedpyright (:analysis (:typeCheckingMode "standard"
-                                                    :extraPaths ["src"])))))
+								      :extraPaths ["src"])))))
 
 ;;; Programming: formatting
 ;; Format code on save (Python: ruff)
@@ -179,3 +179,8 @@
 
 ;; Graphite layout popup
 (require 'graphite-cheatsheet)
+
+
+;; Remote Language Server
+(with-eval-after-load 'tramp
+  (add-to-list 'tramp-remote-path 'tramp-own-remote-path))
