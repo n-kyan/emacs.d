@@ -57,6 +57,11 @@
         auto-save-file-name-transforms `((".*" ,autosaves t))
         lock-file-name-transforms `((".*" ,autosaves t))))
 
+;; Save files to disk automatically after 3 idle seconds, so the file on disk
+;; always matches what you see (and outside edits, like Claude's, never conflict)
+(setq auto-save-visited-interval 3)
+(auto-save-visited-mode 1)
+
 ;; Reload files automatically when something else changes them (like Claude)
 (global-auto-revert-mode 1)
 
