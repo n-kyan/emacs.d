@@ -1,0 +1,97 @@
+#+title: Emacs Setup Checklist
+#+startup: overview
+# TAB on a heading opens/closes it. C-c C-c on a [ ] box ticks it.
+# C-c C-t on a heading cycles TODO -> DONE.
+# DECIDE = a real choice with trade-offs; we compare before you pick.
+
+* TODO 0. Check the base [/]
+- [ ] Find Emacs version + build (31.1 is current; emacs-plus is the most recommended macOS build)
+- [ ] DECIDE: upgrade build/version or keep it
+
+* TODO 1. Foundation cleanup (no decisions, just fixes) [/]
+- [ ] Move Emacs's auto-written settings to =custom.el=
+- [ ] Load the theme once (fix double load)
+- [ ] Send =~= backup and auto-save files to one folder
+- [ ] Move your own elisp (help-agent, marimo-view, python-strings) into =lisp/=
+- [ ] Organize =init.el= into foldable sections
+- [ ] Install GNU =ls= (=brew install coreutils=) so Dired works fully on macOS
+- [ ] DECIDE: one =init.el= vs. literate =config.org= vs. split files
+
+* TODO 2. Finding things (completion) [/]
+- [ ] DECIDE: minibuffer — keep fido vs. Vertico + Orderless + Marginalia + Consult + Embark
+- [ ] DECIDE: in-buffer — Corfu vs. Company vs. built-in completion-preview (or a mix)
+- [ ] DECIDE: popups appear automatically vs. only on TAB
+
+* TODO 3. Terminal [/]
+- [ ] Try the known eat speed fixes, measure the lag
+- [ ] DECIDE: eat vs. vterm vs. Ghostel (newest, fastest, but young)
+- [ ] DECIDE: eshell / =M-x shell= for everyday commands, or one terminal for everything
+
+* TODO 4. Claude Code + AI [/]
+- [ ] DECIDE: main Claude interface — claude-code.el (current) vs. claude-code-ide.el (deepest Emacs integration) vs. agent-shell (no terminal, no lag)
+- [ ] Set up gptel as the base for building your own AI tools
+- [ ] DECIDE: connect Emacs tools to Claude via MCP (mcp.el)
+- [ ] DECIDE: AI inline code suggestions (minuet / copilot) or not
+- [ ] Update help-agent.el to fit whatever we choose
+
+* TODO 5. Python (uv-based) [/]
+- [ ] Fix Eglot so it starts in all Python modes, incl. tree-sitter
+- [ ] DECIDE: how Emacs finds each project's uv =.venv= — envrc/direnv vs. buffer-env vs. small custom code
+- [ ] DECIDE: type checker — basedpyright (current) vs. ty (fast, still beta)
+- [ ] DECIDE: add ruff's live warnings alongside the type checker (via rassumfrassum)
+- [ ] DECIDE: REPL/notebook flow — run-python vs. code-cells vs. emacs-jupyter (+ your marimo view)
+- [ ] Set up debugging with dape + debugpy
+
+* TODO 6. C++ [/]
+- [ ] Eglot + clangd, with =compile_commands.json= from CMake
+- [ ] DECIDE: tree-sitter grammars — auto-install (treesit-auto) vs. manual
+- [ ] Build/compile commands via project.el
+- [ ] Debugging with dape + lldb-dap
+- [ ] Fix macOS header issues (Apple clang vs. Homebrew llvm), if any
+
+* TODO 7. Julia [/]
+- [ ] Eglot + LanguageServer.jl (eglot-jl)
+- [ ] DECIDE: REPL — julia-repl (simple) vs. julia-snail (deeper)
+
+* TODO 8. Git [/]
+- [ ] Learn the core Magit loop: status, stage, commit, push
+
+* TODO 9. Life organization (Org) [/]
+- [ ] DECIDE: Org file layout (inbox + tasks minimal vs. per-area files)
+- [ ] DECIDE: TODO keywords (e.g. TODO NEXT WAIT | DONE CANCELLED)
+- [ ] Capture templates (2-second idea capture)
+- [ ] Agenda as your daily dashboard
+- [ ] DECIDE: agenda add-ons — org-super-agenda / org-ql or plain
+- [ ] DECIDE: notes — Denote vs. org-roam vs. org-node vs. plain Org
+- [ ] DECIDE: calendar — keep external + one-way import vs. two-way sync (fragile)
+
+* TODO 10. Files on your Mac [/]
+- [ ] DECIDE: folder scheme — PARA vs. Johnny.Decimal vs. Denote naming vs. custom
+- [ ] DECIDE: iCloud Drive for Org/notes or not (iCloud can evict files)
+- [ ] DECIDE: Dired — plain + extras vs. dirvish
+- [ ] Learn wdired (bulk rename by editing the listing)
+
+* TODO 11. Prose [/]
+- [ ] DECIDE: where olivetti turns on (Org? Markdown? not commit messages)
+- [ ] DECIDE: olivetti vs. writeroom; add spacious-padding?
+- [ ] Spell check with jinx
+- [ ] DECIDE: grammar checker — Harper vs. LanguageTool vs. none
+- [ ] Export setup (Pandoc for .docx, LaTeX for PDF)
+
+* TODO 12. Keys & feel [/]
+- [ ] DECIDE: Command/Option key mapping (currently right Cmd = Meta)
+- [ ] Turn on which-key (built in) to show available keys
+
+* TODO 13. Keyboard [/]
+- [ ] DECIDE: Ctrl placement — Caps Lock = Ctrl (tap = Esc?) vs. home row mods
+- [ ] DECIDE: where remapping lives — NuPhy.io vs. Karabiner-Elements vs. Kanata
+- [ ] DECIDE: letter layout — QWERTY vs. Colemak-DH vs. Graphite/Gallium/Canary
+- [ ] DECIDE: symbols — base layer as-is vs. a symbol layer (parens, _, =, {} near home)
+- [ ] DECIDE: numbers — number row vs. a numpad layer under the right hand
+- [ ] Set up a practice routine (keybr -> Monkeytype) and an accuracy target
+
+* TODO 13. Keyboard [/]
+- [X] DECIDE: letter layout — Graphite (angle mod)
+- [ ] DECIDE: where Ctrl lives (Caps Lock, home row mods, thumb)
+- [ ] DECIDE: numbers and symbols (number row vs. layer)
+- [ ] Check Emacs keys that feel bad on Graphite; rebind only those

@@ -1,0 +1,283 @@
+;;;; Emacs Speed-type statistic Format Version 1;;;; -*- coding: utf-8; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Speed Type File Format Version Stamp -*-
+(((speed-type--create-time 6 50 21 1 11 2026 0 nil -25200)
+  (speed-type--title . "Top 200 English words")
+  (speed-type--author . "Uni Leipzig") (speed-type--lang . English)
+  (speed-type--n-words . 200) (speed-type--entries . 298)
+  (speed-type--errors . 21) (speed-type--non-consecutive-errors . 19)
+  (speed-type--corrections . 0)
+  (speed-type--elapsed-time . 347.3275909423828)
+  (speed-type--time-register 1793594631.406804 1793594636.416349
+			     1793594636.493358 1793594667.225012
+			     1793594667.814699 1793594678.436455
+			     1793594682.886392 1793594763.740748
+			     1793594765.333361 1793594781.005143
+			     1793594783.075864 1793594818.195339
+			     1793594822.988318 1793594830.593987
+			     1793594830.620791 1793594864.96718
+			     1793594866.356142 1793594916.672172
+			     1793594920.387781 1793594926.061058
+			     1793594928.221224 1793594933.236284
+			     1793594938.901878 1793594957.4276
+			     1793594958.562276 1793595006.399152)
+  (speed-type--gross-wpm . 10) (speed-type--gross-cpm . 51)
+  (speed-type--gross-apm . 49) (speed-type--apc . 0.9563758389261745)
+  (speed-type--net-wpm . 6) (speed-type--net-cpm . 47)
+  (speed-type--accuracy . 92.95) (speed-type--continue-at-point)
+  (speed-type--file-name
+   . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+  (speed-type--best-correct-streak . 78)
+  (speed-type--worst-error-streak . 3))
+((speed-type--create-time 56 54 21 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words")
+ (speed-type--author . "Uni Leipzig") (speed-type--lang . English)
+ (speed-type--n-words . 200) (speed-type--entries . 413)
+ (speed-type--errors . 74) (speed-type--non-consecutive-errors . 23)
+ (speed-type--corrections . 0)
+ (speed-type--elapsed-time . 250.1070852279663)
+ (speed-type--time-register 1793595034.424147 1793595048.009077
+			    1793595048.819296 1793595063.290631
+			    1793595063.626333 1793595081.280951
+			    1793595085.2678 1793595161.63913
+			    1793595166.196453 1793595238.941119
+			    1793595240.942008 1793595296.222214)
+ (speed-type--gross-wpm . 20) (speed-type--gross-cpm . 99)
+ (speed-type--gross-apm . 98) (speed-type--apc . 0.9854721549636803)
+ (speed-type--net-wpm . 2) (speed-type--net-cpm . 81)
+ (speed-type--accuracy . 82.08) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 60)
+ (speed-type--worst-error-streak . 15))
+((speed-type--create-time 52 1 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words")
+ (speed-type--author . "Uni Leipzig") (speed-type--lang . English)
+ (speed-type--n-words . 200) (speed-type--entries . 375)
+ (speed-type--errors . 83) (speed-type--non-consecutive-errors . 21)
+ (speed-type--corrections . 0)
+ (speed-type--elapsed-time . 171.4428253173828)
+ (speed-type--time-register 1793595535.754545 1793595544.323404
+			    1793595547.952508 1793595617.510481
+			    1793595618.709614 1793595712.025607)
+ (speed-type--gross-wpm . 26) (speed-type--gross-cpm . 131)
+ (speed-type--gross-apm . 130) (speed-type--apc . 0.992)
+ (speed-type--net-wpm . 0) (speed-type--net-cpm . 102)
+ (speed-type--accuracy . 77.87) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 55)
+ (speed-type--worst-error-streak . 17))
+((speed-type--create-time 10 3 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words")
+ (speed-type--author . "Uni Leipzig") (speed-type--lang . English)
+ (speed-type--n-words . 200) (speed-type--entries . 375)
+ (speed-type--errors . 282) (speed-type--non-consecutive-errors . 25)
+ (speed-type--corrections . 1)
+ (speed-type--elapsed-time . 55.63756203651428)
+ (speed-type--time-register 1793595734.764808 1793595790.40237)
+ (speed-type--gross-wpm . 81) (speed-type--gross-cpm . 404)
+ (speed-type--gross-apm . 405) (speed-type--apc . 1.0026666666666666)
+ (speed-type--net-wpm . 0) (speed-type--net-cpm . 101)
+ (speed-type--accuracy . 24.53) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 20)
+ (speed-type--worst-error-streak . 86))
+((speed-type--create-time 6 12 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 383) (speed-type--errors . 23)
+ (speed-type--non-consecutive-errors . 20)
+ (speed-type--corrections . 20)
+ (speed-type--elapsed-time . 261.25980973243713)
+ (speed-type--time-register 1793596047.769685 1793596069.380468
+			    1793596069.625817 1793596082.001702
+			    1793596088.857259 1793596093.869191
+			    1793596101.260802 1793596152.714027
+			    1793596155.862921 1793596326.670906)
+ (speed-type--gross-wpm . 18) (speed-type--gross-cpm . 88)
+ (speed-type--gross-apm . 101) (speed-type--apc . 1.1488250652741514)
+ (speed-type--net-wpm . 17) (speed-type--net-cpm . 87)
+ (speed-type--accuracy . 88.77) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 61)
+ (speed-type--worst-error-streak . 4))
+((speed-type--create-time 25 14 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 245) (speed-type--errors . 18)
+ (speed-type--non-consecutive-errors . 13)
+ (speed-type--corrections . 15)
+ (speed-type--elapsed-time . 125.8645510673523)
+ (speed-type--time-register 1793596338.315464 1793596366.993473
+			    1793596368.282106 1793596465.468648)
+ (speed-type--gross-wpm . 23) (speed-type--gross-cpm . 117)
+ (speed-type--gross-apm . 132) (speed-type--apc . 1.1306122448979592)
+ (speed-type--net-wpm . 22) (speed-type--net-cpm . 116)
+ (speed-type--accuracy . 86.53) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 107)
+ (speed-type--worst-error-streak . 3))
+((speed-type--create-time 25 17 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 342) (speed-type--errors . 17)
+ (speed-type--non-consecutive-errors . 13)
+ (speed-type--corrections . 15)
+ (speed-type--elapsed-time . 175.83291697502136)
+ (speed-type--time-register 1793596469.700231 1793596645.533148)
+ (speed-type--gross-wpm . 23) (speed-type--gross-cpm . 117)
+ (speed-type--gross-apm . 131) (speed-type--apc . 1.1198830409356726)
+ (speed-type--net-wpm . 22) (speed-type--net-cpm . 116)
+ (speed-type--accuracy . 90.64) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 63)
+ (speed-type--worst-error-streak . 3))
+((speed-type--create-time 56 21 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 503) (speed-type--errors . 44)
+ (speed-type--non-consecutive-errors . 34)
+ (speed-type--corrections . 34)
+ (speed-type--elapsed-time . 264.00027203559875)
+ (speed-type--time-register 1793596650.711026 1793596866.095174
+			    1793596867.869764 1793596916.485888)
+ (speed-type--gross-wpm . 23) (speed-type--gross-cpm . 114)
+ (speed-type--gross-apm . 136) (speed-type--apc . 1.1868787276341948)
+ (speed-type--net-wpm . 21) (speed-type--net-cpm . 112)
+ (speed-type--accuracy . 84.49) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 86)
+ (speed-type--worst-error-streak . 5))
+((speed-type--create-time 46 28 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 486) (speed-type--errors . 37)
+ (speed-type--non-consecutive-errors . 30)
+ (speed-type--corrections . 30)
+ (speed-type--elapsed-time . 252.01930809020996)
+ (speed-type--time-register 1793597074.206663 1793597326.225971)
+ (speed-type--gross-wpm . 23) (speed-type--gross-cpm . 116)
+ (speed-type--gross-apm . 139) (speed-type--apc . 1.2037037037037037)
+ (speed-type--net-wpm . 21) (speed-type--net-cpm . 114)
+ (speed-type--accuracy . 86.21000000000001)
+ (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 78)
+ (speed-type--worst-error-streak . 6))
+((speed-type--create-time 56 30 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 353) (speed-type--errors . 72)
+ (speed-type--non-consecutive-errors . 21)
+ (speed-type--corrections . 3)
+ (speed-type--elapsed-time . 125.68744421005249)
+ (speed-type--time-register 1793597331.083907 1793597456.771351)
+ (speed-type--gross-wpm . 34) (speed-type--gross-cpm . 169)
+ (speed-type--gross-apm . 172) (speed-type--apc . 1.019830028328612)
+ (speed-type--net-wpm . 1) (speed-type--net-cpm . 136)
+ (speed-type--accuracy . 78.75) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 51)
+ (speed-type--worst-error-streak . 15))
+((speed-type--create-time 32 34 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 484) (speed-type--errors . 102)
+ (speed-type--non-consecutive-errors . 32)
+ (speed-type--corrections . 2)
+ (speed-type--elapsed-time . 202.38698625564575)
+ (speed-type--time-register 1793597459.920294 1793597615.649449
+			    1793597621.248225 1793597660.063105
+			    1793597664.24062 1793597672.083571)
+ (speed-type--gross-wpm . 29) (speed-type--gross-cpm . 143)
+ (speed-type--gross-apm . 144) (speed-type--apc . 1.006198347107438)
+ (speed-type--net-wpm . 0) (speed-type--net-cpm . 113)
+ (speed-type--accuracy . 78.51) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 45)
+ (speed-type--worst-error-streak . 16))
+((speed-type--create-time 26 36 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 279) (speed-type--errors . 20)
+ (speed-type--non-consecutive-errors . 12)
+ (speed-type--corrections . 6)
+ (speed-type--elapsed-time . 109.27574896812439)
+ (speed-type--time-register 1793597677.069221 1793597786.34497)
+ (speed-type--gross-wpm . 31) (speed-type--gross-cpm . 153)
+ (speed-type--gross-apm . 164) (speed-type--apc . 1.0681003584229392)
+ (speed-type--net-wpm . 23) (speed-type--net-cpm . 145)
+ (speed-type--accuracy . 90.68) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 72)
+ (speed-type--worst-error-streak . 5))
+((speed-type--create-time 28 38 22 1 11 2026 0 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 321) (speed-type--errors . 7)
+ (speed-type--non-consecutive-errors . 6)
+ (speed-type--corrections . 0)
+ (speed-type--elapsed-time . 119.80596590042114)
+ (speed-type--time-register 1793597788.966952 1793597908.772918)
+ (speed-type--gross-wpm . 32) (speed-type--gross-cpm . 161)
+ (speed-type--gross-apm . 160) (speed-type--apc . 0.9968847352024922)
+ (speed-type--net-wpm . 28) (speed-type--net-cpm . 157)
+ (speed-type--accuracy . 97.82000000000001)
+ (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 75)
+ (speed-type--worst-error-streak . 2))
+((speed-type--create-time 46 48 14 2 11 2026 1 nil -25200)
+ (speed-type--title . "Top 200 English words") (speed-type--author)
+ (speed-type--lang) (speed-type--n-words . 200)
+ (speed-type--entries . 512) (speed-type--errors . 30)
+ (speed-type--non-consecutive-errors . 22)
+ (speed-type--corrections . 16)
+ (speed-type--elapsed-time . 272.28054189682007)
+ (speed-type--time-register 1793655850.700265 1793656004.424692
+			    1793656007.526052 1793656126.082167)
+ (speed-type--gross-wpm . 23) (speed-type--gross-cpm . 113)
+ (speed-type--gross-apm . 125) (speed-type--apc . 1.10546875)
+ (speed-type--net-wpm . 20) (speed-type--net-cpm . 110)
+ (speed-type--accuracy . 91.02) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 79)
+ (speed-type--worst-error-streak . 6))
+((speed-type--create-time 15 14 19 4 11 2026 3 nil -25200)
+ (speed-type--title . "Top 100 English words")
+ (speed-type--author . "Uni Leipzig") (speed-type--lang . English)
+ (speed-type--n-words . 100) (speed-type--entries . 288)
+ (speed-type--errors . 18) (speed-type--non-consecutive-errors . 16)
+ (speed-type--corrections . 16)
+ (speed-type--elapsed-time . 366.4330060482025)
+ (speed-type--time-register 1793844449.908458 1793844483.150022
+			    1793844483.521741 1793844522.088609
+			    1793844522.760758 1793844552.163667
+			    1793844554.366146 1793844626.373132
+			    1793844626.574782 1793844644.653959
+			    1793844668.485401 1793844724.830845
+			    1793844729.56434 1793844743.374805
+			    1793844750.460575 1793844828.405043
+			    1793844828.439833 1793844855.474958)
+ (speed-type--gross-wpm . 9) (speed-type--gross-cpm . 47)
+ (speed-type--gross-apm . 52) (speed-type--apc . 1.1006944444444444)
+ (speed-type--net-wpm . 9) (speed-type--net-cpm . 47)
+ (speed-type--accuracy . 88.19) (speed-type--continue-at-point)
+ (speed-type--file-name
+  . "/Users/n.kyan/.emacs.d/speed-type/English.txt")
+ (speed-type--best-correct-streak . 45)
+ (speed-type--worst-error-streak . 3))
+)

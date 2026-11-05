@@ -1,0 +1,22 @@
+# Downloaded/rebuilt automatically on a new machine
+elpa/
+eln-cache/
+tree-sitter/
+
+# Emacs's safety copies and session state (machine-specific)
+backups/
+auto-saves/
+auto-save-list/
+*~
+\#*#
+.#*
+
+# Browser cookies and other private state
+url/
+
+# Project list has this machine's file paths
+projects.eld
+
+# Junk
+.DS_Store
+_to_delete/
